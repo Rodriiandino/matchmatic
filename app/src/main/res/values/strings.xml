@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MatchMatic</string>
+    <string name="title">MatchMatic</string>
+    <string name="subtitle">Message 1</string>
+    <string name="subtitle_2">Message 2</string>
+    <string name="text_compare">The texts are</string>
+    <string name="text_not_compare">The texts are not</string>
+    <string name="text_equal">equal</string>
+    <string name="text_not_equal">Unequal</string>
+    <string name="text_compare_button">Compare</string>
+    <string name="text_input_one">Enter the first text</string>
+    <string name="text_input_two">Enter the second text</string>
+</resources>
