@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.ticma.curso.android.matchmatic.databinding.ActivityMainBinding
 import com.ticma.curso.android.matchmatic.viewmodel.TextCompareViewModel
 
+//El patrón de arquitectura de MVVM
+//View (MainActivity) observa los cambios en LiveData y reacciona a ellos en los elementos de la interfaz de usuario.
 class MainActivity : AppCompatActivity() {
     // binding es una variable que nos permite acceder a los elementos de la vista
     private lateinit var binding: ActivityMainBinding
@@ -28,7 +30,9 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        // button(id) es el botón que tenemos en la vista
         binding.button.setOnClickListener {
+            // textToCompare(id) es el primer EditText que tenemos en la vista
             val text1 = binding.textToCompare.text.toString()
             val text2 = binding.textToCompare2.text.toString()
             mainViewModel.compareTexts(text1, text2)
