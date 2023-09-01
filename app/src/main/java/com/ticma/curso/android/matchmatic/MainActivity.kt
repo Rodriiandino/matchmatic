@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
     // mainViewModel es una variable que nos permite acceder al ViewModel
     private val mainViewModel: TextCompareViewModel by viewModels()
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)

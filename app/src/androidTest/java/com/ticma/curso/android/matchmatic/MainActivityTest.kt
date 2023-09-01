@@ -38,6 +38,5 @@ class MainActivityTest {
         Espresso.onView(
             ViewMatchers.withId(R.id.button)
         ).perform(ViewActions.click())
-
     }
 }
