@@ -9,4 +9,4 @@ MatchMatic es una sencilla aplicación de comparación de texto. Te permite ingr
 
 **¡Gracias por unirte a mi viaje en el desarrollo móvil! 🚀**
 
-![337shots_so](https://github.com/Rodriiandino/matchmatic-android-app/assets/106351323/70959c0a-de36-40a5-8e0c-72ef12439f11)
+![793shots_so](https://github.com/Rodriiandino/matchmatic-android-app/assets/106351323/af8e1a7a-1233-4e78-854b-094b53c958a9)
